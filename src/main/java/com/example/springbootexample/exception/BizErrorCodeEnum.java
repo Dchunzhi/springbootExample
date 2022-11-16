@@ -39,7 +39,6 @@ public enum BizErrorCodeEnum implements ErrorCode {
     PAY_CHANNEL_IS_NULL("40008","支付渠道不能为空"),
     PAY_CHANNEL_PARAM_ERROR("40009","支付订单渠道参数错误"),
     ;
-
     /** 错误码 */
     private final String code;
 
